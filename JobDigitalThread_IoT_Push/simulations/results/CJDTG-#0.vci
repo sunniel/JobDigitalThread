@@ -1,0 +1,52 @@
+file 2387 1655822564                                            
+version 2
+run CJDTG-0-20220621-22:42:28-85196
+attr configname CJDTG
+attr datetime 20220621-22:42:28
+attr experiment CJDTG
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network abstract.CJDTG
+attr processid 85196
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.system_num 5
+param **.var_num 10
+param **.underlayConfigurator.edgeSystemType "\"hosts.EdgeSystem\""
+param **.underlayConfigurator.edgeSystemName "\"eDT\""
+param **.underlayConfigurator.cloudSystemType "\"hosts.CloudSystem\""
+param **.underlayConfigurator.cloudSystemName "\"cDT\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 0
+param **.globalParameters.round 10s
+param **.globalParameters.cycle 1000ms
+param **.knowledgeBase.assoc_fraction 0.5
+param **.knowledgeBase.assoc_chance 0.5
+param **.knowledgeBase.assoc_max_num 3
+param **.cDT*.ctrl.sample_len 5
+param **.cDT*.ctrl.pull_threshold 0.6
+param **.cDT*.ctrl.sigma_base 0.1
+param **.cDT*.ctrl.sigma_max 1
+param **.cDT*.ctrl.pull_beta 1
+param **.cDT*.ctrl.pull_radix 1.5
+param **.eTA.message_loss 0.2
+param **.pktLossRate 0.01
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+
+vector 0 CJDTG.globalObserver.globalStatistics TraceAccuracy:vector ETV
+attr source RoundTraceAccuracy
+attr title "Round Trace Accuracy, vector"
+0	1589 796 9775 150419 20 300 29 0.99846153846154 1 28.989919120757 28.979845877867
+
