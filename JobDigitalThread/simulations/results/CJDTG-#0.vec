@@ -1,0 +1,81 @@
+version 2
+run CJDTG-0-20220621-16:47:42-82464
+attr configname CJDTG
+attr datetime 20220621-16:47:42
+attr experiment CJDTG
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network abstract.CJDTG
+attr processid 82464
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.system_num 5
+param **.var_num 10
+param **.underlayConfigurator.edgeSystemType "\"hosts.EdgeSystem\""
+param **.underlayConfigurator.edgeSystemName "\"eDT\""
+param **.underlayConfigurator.cloudSystemType "\"hosts.CloudSystem\""
+param **.underlayConfigurator.cloudSystemName "\"cDT\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 0
+param **.globalParameters.round 10s
+param **.globalParameters.cycle 1000ms
+param **.knowledgeBase.assoc_fraction 0.5
+param **.knowledgeBase.assoc_chance 0.5
+param **.knowledgeBase.assoc_max_num 3
+param **.cDT*.ctrl.sample_len 5
+param **.cDT*.ctrl.pull_threshold 0.6
+param **.cDT*.ctrl.sigma_base 0.1
+param **.cDT*.ctrl.sigma_max 1
+param **.cDT*.ctrl.pull_beta 1
+param **.cDT*.ctrl.pull_radix 1.5
+param **.eTA.message_loss 0.1
+param **.cTA.pull_threshold 0.65
+param **.cTA.assoc_accuracy 1.0
+param **.pktLossRate 0.01
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+
+vector 0 CJDTG.globalObserver.globalStatistics TraceAccuracy:vector ETV
+attr source RoundTraceAccuracy
+attr title "Round Trace Accuracy, vector"
+0	4781	20	0.9
+0	7310	30	0.91052631578947
+0	9839	40	0.78965517241379
+0	12372	50	0.75897435897436
+0	14897	60	0.69863945578231
+0	17426	70	0.74745762711864
+0	19959	80	0.86521739130435
+0	22488	90	0.8295358649789
+0	25021	100	0.91835205992509
+0	27550	110	0.91178451178451
+0	30079	120	0.89113149847095
+0	32608	130	0.85322128851541
+0	35141	140	0.85736434108527
+0	37670	150	0.8462829736211
+0	40199	160	0.84563758389262
+0	42732	170	0.91761006289308
+0	45261	180	0.89072978303748
+0	47794	190	0.92029795158287
+0	50327	200	0.92416225749559
+0	52856	210	0.91943048576214
+0	55385	220	0.90255183413078
+0	57914	230	0.87595129375951
+0	60447	240	0.88893740902475
+0	62976	250	0.88117154811715
+0	65505	260	0.87938420348059
+0	68038	270	0.87361647361647
+0	70571	280	0.96741016109046
+0	73100	290	0.95818399044205
+0	75637	300	0.99919261822376
+

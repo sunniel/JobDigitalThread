@@ -1,0 +1,50 @@
+version 2
+run CJDTG-2-20220621-06:00:22-74776
+attr configname CJDTG
+attr datetime 20220621-06:00:22
+attr experiment CJDTG
+attr inifile omnetpp.ini
+attr iterationvars $0=0.15
+attr iterationvarsf 0.15-
+attr measurement $0=0.15
+attr network abstract.CJDTG
+attr processid 74776
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 2
+param **.system_num 5
+param **.var_num 10
+param **.underlayConfigurator.edgeSystemType "\"hosts.EdgeSystem\""
+param **.underlayConfigurator.edgeSystemName "\"eDT\""
+param **.underlayConfigurator.cloudSystemType "\"hosts.CloudSystem\""
+param **.underlayConfigurator.cloudSystemName "\"cDT\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 0
+param **.globalParameters.round 10s
+param **.globalParameters.cycle 1000ms
+param **.knowledgeBase.assoc_fraction 0.5
+param **.knowledgeBase.assoc_chance 0.5
+param **.knowledgeBase.assoc_max_num 3
+param **.cDT*.ctrl.sample_len 5
+param **.cDT*.ctrl.pull_threshold 0.6
+param **.cDT*.ctrl.sigma_base 0.1
+param **.cDT*.ctrl.sigma_max 1
+param **.cDT*.ctrl.pull_beta 1
+param **.cDT*.ctrl.pull_radix 1.5
+param **.eTA.message_loss 0.15
+param **.cTA.pull_threshold 0.65
+param **.pktLossRate 0.01
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+
+scalar CJDTG.globalObserver.globalStatistics "Trace Coverage" 0.96362876254181
+scalar CJDTG.globalObserver.globalStatistics "Communication Overhead" 8561
+

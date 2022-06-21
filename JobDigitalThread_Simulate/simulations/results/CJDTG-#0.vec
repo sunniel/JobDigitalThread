@@ -1,0 +1,79 @@
+version 2
+run CJDTG-0-20220621-17:15:28-76204
+attr configname CJDTG
+attr datetime 20220621-17:15:28
+attr experiment CJDTG
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network abstract.CJDTG
+attr processid 76204
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.system_num 5
+param **.var_num 10
+param **.underlayConfigurator.edgeSystemType "\"hosts.EdgeSystem\""
+param **.underlayConfigurator.edgeSystemName "\"eDT\""
+param **.underlayConfigurator.cloudSystemType "\"hosts.CloudSystem\""
+param **.underlayConfigurator.cloudSystemName "\"cDT\""
+param **.globalParameters.max_distance 20000000m
+param **.globalParameters.fix_latency 100ms
+param **.globalParameters.latency_gen_mode 0
+param **.globalParameters.round 10s
+param **.globalParameters.cycle 1000ms
+param **.knowledgeBase.assoc_fraction 0.5
+param **.knowledgeBase.assoc_chance 0.5
+param **.knowledgeBase.assoc_max_num 3
+param **.cDT*.ctrl.sample_len 5
+param **.cDT*.ctrl.pull_threshold 0.6
+param **.cDT*.ctrl.sigma_base 0.1
+param **.cDT*.ctrl.sigma_max 1
+param **.cDT*.ctrl.pull_beta 1
+param **.cDT*.ctrl.pull_radix 1.5
+param **.eTA.message_loss 0.1
+param **.pktLossRate 0.01
+param **.Copt 200000000mps
+param **.BW 1.04858e6bps
+param **.MTU 12144b
+param **.jitter_mu 1
+param **.jitter_sigma 0.5
+param **.Dmin 50ms
+param **.jitter 50ms
+
+vector 0 CJDTG.globalObserver.globalStatistics TraceAccuracy:vector ETV
+attr source RoundTraceAccuracy
+attr title "Round Trace Accuracy, vector"
+0	4775	20	0.9
+0	7298	30	0.91052631578947
+0	9821	40	0.78965517241379
+0	12344	50	0.63846153846154
+0	14867	60	0.54897959183673
+0	17390	70	0.6271186440678
+0	19913	80	0.6695652173913
+0	22436	90	0.65569620253165
+0	24959	100	0.60449438202247
+0	27482	110	0.56363636363636
+0	30005	120	0.6045871559633
+0	32528	130	0.63109243697479
+0	35051	140	0.62558139534884
+0	37574	150	0.59496402877698
+0	40097	160	0.56845637583893
+0	42620	170	0.59622641509434
+0	45143	180	0.61538461538462
+0	47666	190	0.6122905027933
+0	50189	200	0.59047619047619
+0	52712	210	0.57085427135678
+0	55235	220	0.59186602870813
+0	57758	230	0.60684931506849
+0	60281	240	0.60480349344978
+0	62804	250	0.58786610878661
+0	65327	260	0.57228915662651
+0	67850	270	0.58918918918919
+0	70373	280	0.60148698884758
+0	72896	290	0.6
+0	75419	300	0.58615916955017
+

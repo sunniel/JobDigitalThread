@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-10-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-15-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-20-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-25-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-30-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-35-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-40-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-45-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-5-#0.sca"/>
+    <inputs name="/JobDigitalThread_DT_Pull/simulations/results/CJDTG-50-#0.sca"/>
+  </inputs>
+  <datasets/>
+  <chartSheets/>
+</scave:Analysis>

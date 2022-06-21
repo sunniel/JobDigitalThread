@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.05-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.1-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.15-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.2-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.25-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.3-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.35-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.4-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.45-#0.sca"/>
+    <inputs name="/JobDigitalThread/simulations/results/CJDTG-0.5-#0.sca"/>
+  </inputs>
+  <datasets/>
+  <chartSheets/>
+</scave:Analysis>
